@@ -1,0 +1,39 @@
+
+
+body {
+    background-image: url(Media\skateboard-sunset-PC.jpg);
+    background-position: center;
+    
+}
+
+
+.row-1, .row-2{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content:flex-start;
+    align-content:start;
+
+    align-content: center;
+
+    gap: 2px;
+
+
+}
+
+.row-2{
+    justify-content:flex-end;
+}
+
+
+.item-text, .item-image {
+    width: 320px; height: 320px;
+    background-color: azure;
+    margin: 10px;
+  }
+  
+  .item-image img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
